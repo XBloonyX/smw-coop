@@ -8,7 +8,7 @@ LDA #$01
 RTS
 .small
 LDA #$00
-RTS
+RTS 
 
 GetCharacterLong:
 JSR GetCharacter
