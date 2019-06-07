@@ -644,7 +644,7 @@ SpinKillEntryNoSound:
 PHY			;preserve/zero Y
 LDY #$00
 BRA SensibleNoSound
-StarKillEntryNoSound:		;Y=counter to use. 0=regular 1=star
+StarKillEntryNoSound:	;Y=counter to use. 0=regular 1=star
 PHY
 LDY #$01
 SensibleNoSound:
